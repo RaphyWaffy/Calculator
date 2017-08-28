@@ -1,0 +1,65 @@
+/* Basic reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+body {
+background-color: beige;
+}
+
+#calculator {
+  width: 375px;
+  margin: 100px auto;
+  height: 400px;
+  background: #9c582a;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 41px;
+  -webkit-box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.keys span {
+  float: left;
+  width: 75px;
+  text-align: center;
+  background: white;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 4px;
+
+  box-shadow:0 3px 0 0 rgba(0, 0, 0, 0.75);
+
+}
+.keys span:active {
+	box-shadow: none;
+
+}
+
+.keys span.operator {
+  background: pink;
+}
+
+#top {
+  background: white;
+  height: 15px;
+  width: 323px;
+  margin: 4px;
+  padding: 10px;
+  letter-spacing: 1px;
+  font-family: 'Share Tech Mono', monospace;
+  box-shadow: inset 5px 5px 4px 0px rgba(0,0,0,0.75);
+  overflow:hidden;
+
+}
+
+#descrip {
+  margin-top: 200px;
+  text-align:center;
+  font-size:20px;
+
+}
