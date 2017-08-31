@@ -11,7 +11,7 @@ background-color: beige;
 }
 
 #calculator {
-  width: 375px;
+  width: 315px;
   margin: 100px auto;
   height: 400px;
   background: #9c582a;
@@ -25,7 +25,7 @@ background-color: beige;
 
 .keys span {
   float: left;
-  width: 75px;
+  width: 60px;
   text-align: center;
   background: white;
   padding: 5px;
@@ -47,7 +47,7 @@ background-color: beige;
 #top {
   background: white;
   height: 15px;
-  width: 323px;
+  width: 285px;
   margin: 4px;
   padding: 10px;
   letter-spacing: 1px;
